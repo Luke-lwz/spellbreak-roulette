@@ -8,7 +8,7 @@ Invite link to the 24/7 online version: [invite me](https://discord.com/oauth2/a
 To self-host you need to replace all custom emoji in "gamedata.js" with your own.  
 
 
-**Installation:**
+**Installation:**  
 Download node.js and npm.  
 Open the folder in an IDE of your choice.  
 Create a Discord bot at https://discord.com/developers/applications.  
