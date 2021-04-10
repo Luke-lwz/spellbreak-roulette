@@ -27,6 +27,14 @@ client.once("ready", async () => {
         }
     })
 
+    
+    client.api.applications(client.user.id).commands.post({
+        data: {
+            name: "info",
+            description: "info about how the bot works"
+        }
+    }).catch(console.error)
+
     client.api.applications(client.user.id).commands.post({
         data: {
             name: "roulette",
@@ -42,12 +50,6 @@ client.once("ready", async () => {
         }
     }).catch(console.error)
 
-    client.api.applications(client.user.id).commands.post({
-        data: {
-            name: "info",
-            description: "info about how the bot works"
-        }
-    }).catch(console.error)
 })
 const fn = require("./functions.js");
 
@@ -149,7 +151,7 @@ function getInfo() {
     return {
         embed: {
             title: "INFO",
-            description: "Prefix: `" + prefix + "`\nThe bot was created by <@462630374028214311> for his german Spellbreak community and is now public (and translated).",
+            description: "Prefix: `" + prefix + "` or `/`\nThis is a Bot, that presents random restrictions to Spellbreak matches. Try it by using `/roulette`\nThe bot was created by <@462630374028214311> for his german Spellbreak community and is now public (and translated).",
             fields: [
                 {
                     name: "GOOD TO KNOW",
