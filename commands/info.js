@@ -9,7 +9,7 @@ module.exports = {
                 fields: [
                     {
                         name: "GOOD TO KNOW",
-                        value: "- You can reproduce any random combination by simply adding the code of said combination after the command: `!roulette 2524433022034543`.\n- Instead of using `" + prefix + "roulette`, you can just use `" + prefix + "r`.\n- Offhand gauntlets will never have the same magical element as the class.\n- Talent combinations won't ever exceed the maximum cost (7).\nThe arrow infront of the landing spot, roughly indicates its location on the map.\nThere are `9,755,263,856,250` possible loadout combinations."
+                        value: "- You can reproduce any random combination by simply adding the code of said combination after the command: `!roulette 2524433022034543`.\n- Instead of using `" + prefix + "roulette`, you can just use `" + prefix + "r`.\n- Offhand gauntlets will never have the same magical element as the class.\n- Talent combinations won't ever exceed the maximum cost (7).\n- The arrow infront of the landing spot, roughly indicates its location on the map.\n- There are `9,755,263,856,250` possible loadout combinations."
                     },
                     {
                         name: "HOW IT WORKS",
