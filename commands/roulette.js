@@ -112,9 +112,8 @@ module.exports = {
 
         function probRng(length) {
             var arr = probGen(length);
-            var max = arr.length;
+            var max = arr.length - 1;
             min = 0;
-            max = max - 1;
             max = Math.floor(max);
             return arr[Math.floor(Math.random() * (max - min + 1)) + min];
         }
