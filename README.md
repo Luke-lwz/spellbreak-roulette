@@ -1,6 +1,6 @@
 # spellbreak-roulette
 
-A randomizer for [Spellbreak](https://playspellbreak.com/), to give the player(s) an extra challenge. 
+A randomizer for [Spellbreak](https://playspellbreak.com/), to give players an extra challenge. 
 
 Invite link to the 24/7 online version: [invite me](https://discord.com/oauth2/authorize?client_id=830456313845907517&permissions=2147994688&scope=applications.commands%20bot)
 
