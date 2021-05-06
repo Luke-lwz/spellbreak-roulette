@@ -13,15 +13,15 @@ module.exports = {
             var section = map.grid[id[14]].section;
             var location = map[section][id[15]];
         } else {
-            const rClass = [probRng(emoji.rarity.length), rnd(emoji.class.length)]
+            const rClass = [getRarity(emoji.rarity.length), rnd(emoji.class.length)]
             const rGauntlet = {
-                rarity: probRng(emoji.rarity.length),
+                rarity: getRarity(emoji.rarity.length),
                 "1": getGauntlet(),
                 "2": getGauntlet()
             }
 
             const rRunes = {
-                rarity: probRng(emoji.rarity.length),
+                rarity: getRarity(emoji.rarity.length),
                 "1": rnd(emoji.rune.length),
                 "2": rnd(emoji.rune.length)
             }
@@ -102,20 +102,21 @@ module.exports = {
             }
         }
 
+        function getRarity(length) {
+            const prob = rnd(2);
+            const whichRnd = [rnd(length), probRng(length)]
+            return whichRnd[prob]
+        }
+
 
         function rnd(max) {
-            min = 0;
-            max = max - 1;
-            max = Math.floor(max);
-            return Math.floor(Math.random() * (max - min + 1)) + min;
+            return Math.floor(Math.random() * max);
         }
 
         function probRng(length) {
             var arr = probGen(length);
-            var max = arr.length - 1;
-            min = 0;
-            max = Math.floor(max);
-            return arr[Math.floor(Math.random() * (max - min + 1)) + min];
+            var max = arr.length;
+            return arr[Math.floor(Math.random() * max)];
         }
 
         function probGen(length) {

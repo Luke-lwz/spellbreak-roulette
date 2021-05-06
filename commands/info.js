@@ -13,7 +13,7 @@ module.exports = {
                     },
                     {
                         name: "HOW IT WORKS",
-                        value: "There's obviously a lot of rng going on but there are some differences between certain elements. Here are the chances of every element:\n`CLASS` ~ `16,6%`\n`GAUNTLETS` ~ `20%`\n`RUNES` ~ `11,1%`\n`CONSUMABLES` ~ `11,1`\n`TALENTS` ~ `14,3%`\n`DROP LOCATION` ~ `3%`\n\nRaritys work a bit different:\n`COMMON` ~ `33,3%`\n`UNCOMMON` ~ `26,7%`\n`RARE` ~ `20%`\n`EPIC` ~ `13.3%`\n`LEGENDARY` ~ `6.7%`\n\n(Every single slot will get rng seperately)."
+                        value: "There's obviously a lot of rng going on but there are some differences between certain elements. Here are the chances of every element:\n`CLASS` ~ `16,6%`\n`GAUNTLETS` ~ `20%`\n`RUNES` ~ `11,1%`\n`CONSUMABLES` ~ `11,1%`\n`TALENTS` ~ `14,3%`\n`DROP LOCATION` ~ `3%`\n\nRaritys work a bit different:\n`COMMON` ~ `33,3%`\n`UNCOMMON` ~ `26,7%`\n`RARE` ~ `20%`\n`EPIC` ~ `13.3%`\n`LEGENDARY` ~ `6.7%`\n\n(Every single slot will get rng seperately)."
                     },
                     {
                         name: "INVITE",
