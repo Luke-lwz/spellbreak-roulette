@@ -1,4 +1,14 @@
-const { prefix, token, id } = require('./config.json') //config file with token
+require("dotenv").config()
+
+
+const { prefix } = require('./config.json') //config file with token
+
+const token = process.env.TOKEN;
+
+const id = process.env.ID;
+
+
+
 const atBot = "<@!" + id + ">"
 
 //Discord.js
