@@ -2,8 +2,8 @@ const data = {
     emoji: {
         spellbreak: "<:Spellbreak:759907485783556126>",
         rarity: [":white_large_square:", ":green_square:", ":blue_square:", ":purple_square:", ":yellow_square:"],
-        class: ["<:Pyromancer:754119572734476288>", "<:Toxicologist:754119572658978816>", "<:Stoneshaper:754119572373766226>", "<:Tempest:754119572092616814>", "<:Frostborn:754119570364694689>", "<:Conduit:754119568686973018>"],
-        gauntlet: ["<:Fire_Gauntlet:754120449729888256>", "<:Toxic_Gauntlet:754120450296119528>", "<:Stone_Gauntlet:754120450094923778>", "<:Wind_Gauntlet:754120450463760435>", "<:Frost_Gauntlet:754120449771700284>", "<:Lightning_Gauntlet:754120449763573782>"],
+        class: ["<:Pyromancer:1143956363563778059>", "<:Toxicologist:1143956368815050872>", "<:Stoneshaper:1143956366701117510>", "<:Tempest:1143956376926826658>", "<:Frostborn:1143956373638488188>", "<:Conduit:1143956371767840892>"],
+        gauntlet: ["<:Fire:1143956290830344255>", "<:Toxic:1143956299252514897>", "<:Stone:1143956297608343663>", "<:Wind:1143956300649222154>", "<:Frost:1143956293988659299>", "<:Lightning:1143956295389548634>"],
         rune: ["<:Springstep:819944090317619240>", "<:Dash:819944089944326184>", "<:Invisibility:819944089696337981>", "<:Invisibility:819944089696337981>", "<:Shadowstep:819944089763708950>", "<:WolfsBlood:819944090073563167>", "<:Featherfall:819944089901465610>", "<:Flight:819944089738149899>", "<:Teleport:819944089843531777>", "<:Chronomaster:819944089628835901>"],
         heal: ["<:Small_HP:819945161512976394>", "<:HP:754121008935469177>", "<:Large_HP:754121009136795698>", "<:Small_Shard:819945161508913162>", "<:Shard:754121009186996294>", "<:Large_Shard:754121008692199454>", "<:Safeguard:819945161239822368>", "<:Large_Safeguard:819945161416900618>", "<:Knowledge:819945161232482346>"],
         talent: {
